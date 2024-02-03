@@ -225,14 +225,14 @@ h2 {
     margin-top: 24px;
 }
 
-.article-price {
+.bicycle-article__price {
     display: flex;
     color: #49464F;
     font-size: 17px;
     gap: 16px;
 }
 
-.article-offer {
+.bicycle-article__offer {
     padding: 1px 10px;
     color: #7140EB;
     font-size: 16px;
@@ -240,13 +240,13 @@ h2 {
     background: #F1EEF8;
 }
 
-.article-title {
+.bicycle-article__title {
     margin-top: 40px;
     color: #49464F;
     font-size: 29px;
 }
 
-.article-class {
+.bicycle-article__class {
     color: #49464F;
     font-size: 18px;
     margin-bottom: 11px;
