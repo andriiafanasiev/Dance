@@ -270,15 +270,52 @@ h2 {
     background: #F1EEF8;
 }
 
+.details-btn__size-s{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
 .bicycle-article {
     border-radius: 16px;
     background: #FFF;
     padding: 67px 24px 32px 24px;
 }
 
+.ride__container{
+    max-width: 1040px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 74px 0px;
+    gap: 17px;
+}
+.ride__title{
+    font-size: 4.19rem;
+    line-height: 100%;
+    color: #2e2c34; 
+}
+.ride__text{
+    margin: 26px 0px 40px 0px;
+    font-size: 1.12rem;
+    line-height: 120%;
+    color: #2e2c34;
+}
+
 /* Adaptiv */
 
 @media screen and (max-width: 768px) {
+    .ride__container{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .ride__content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
     .howorks__image{
         padding-top: 0px;
     }
