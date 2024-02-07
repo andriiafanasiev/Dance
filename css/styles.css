@@ -411,6 +411,36 @@ h2 {
     display: flex;
     gap: 28px;
 }
+.rewiews{
+    color: #49464F;
+}
+.rewiews__container{
+    max-width: 1040px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 98px;
+    padding-top: 68px;
+    padding-bottom: 73px;
+}
+.rewiews__text{
+    font-size: 1.813rem;
+}
+.rewiews__rewiews{
+    display: flex;
+    justify-content: space-between;
+}
+.rewiews__rewiew{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.rewiews__person{
+    margin-top: 19px;
+    font-size: 1.063rem;
+    justify-self: end;
+}
+
 /* Adaptiv */
 
 @media screen and (max-width: 768px) {
