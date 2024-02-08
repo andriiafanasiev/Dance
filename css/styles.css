@@ -440,6 +440,69 @@ h2 {
     font-size: 1.063rem;
     justify-self: end;
 }
+.footer{
+    background-image: url(/img/bg/footerbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer__container{
+    color: #FFFFFF;
+    max-width: 1120px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 98px;
+    padding-bottom: 141px;
+}
+.footer__title{
+    font-size: 1.813rem;
+}
+.footer__text{
+    margin-top: 18px;
+    font-size: 1rem;
+}
+.footer__nav{
+    display: flex;
+    gap: 113px;
+}
+.footer__nav ul{
+    display: flex;
+    flex-direction: column;
+}
+.footer__nav ul li{
+    margin-bottom: 16px;
+}
+.footer__nav ul h5{
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 8px;
+}
+.footer__political{
+    margin-top: 25px;
+    font-size: 0.88rem;
+}
+.footer__input{
+    margin-top: 29px;
+}
+.footer a:visited{
+    color: #FFFFFF;
+}
+.footer__nav{
+    font-size: 1rem ;
+}
+
+.footer__input{
+    display: flex;
+    justify-content: space-between;
+    background-color:#fff ;
+    padding: 16px 18px 16px 14px ;
+    border-radius: 0.62rem;
+    font-size: 1rem;
+    line-height: 137%;
+    color: rgba(73, 70, 79, 0.8);
+}
+.footer__input input::placeholder{
+    font-size: 1rem;
+}
 
 /* Adaptiv */
 
