@@ -446,6 +446,7 @@ h2 {
     background-size: cover;
 }
 .footer__container{
+    position: relative;
     color: #FFFFFF;
     max-width: 1120px;
     margin: 0 auto;
@@ -453,6 +454,18 @@ h2 {
     justify-content: space-between;
     padding-top: 98px;
     padding-bottom: 141px;
+}
+.footer__social-media{
+    position: absolute;
+    margin-bottom: 20px;
+    right: 0;
+    bottom: 0;
+}
+.footer__social-media a img{
+    transition: transform 0.3s ease-in-out;
+}
+.footer__social-media a:hover img {
+    transform: scale(1.5);
 }
 .footer__title{
     font-size: 1.813rem;
@@ -496,12 +509,21 @@ h2 {
     background-color:#fff ;
     padding: 16px 18px 16px 14px ;
     border-radius: 0.62rem;
-    font-size: 1rem;
+    
     line-height: 137%;
     color: rgba(73, 70, 79, 0.8);
 }
+.footer__input input:first-of-type{
+    font-size: 1rem;
+}
 .footer__input input::placeholder{
     font-size: 1rem;
+}
+.submit-button {
+    border: none; 
+    background-color: transparent; 
+    cursor: pointer; 
+    display: inline-block; 
 }
 
 /* Adaptiv */
