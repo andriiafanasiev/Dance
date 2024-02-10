@@ -76,7 +76,7 @@ body {
 }
 
 .header {
-    background-image: url(./img/bg/mainbg.svg);
+    background-image: url(../img/bg/mainbg.svg);
     background-position: center;
     background-size: cover;
     color: #FFFFFF;
@@ -302,7 +302,7 @@ h2 {
 }
 
 .city{
-    background-image: url(img/bg/citybg.png);
+    background-image: url(../img/bg/citybg.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -441,7 +441,7 @@ h2 {
     justify-self: end;
 }
 .footer{
-    background-image: url(img/bg/footerbg.png);
+    background-image: url(../img/bg/footerbg.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
