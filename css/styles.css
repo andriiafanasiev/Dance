@@ -76,7 +76,7 @@ body {
 }
 
 .header {
-    background-image: url(img/bg/mainbg.svg);
+    background-image: url(./img/bg/mainbg.svg);
     background-position: center;
     background-size: cover;
     color: #FFFFFF;
