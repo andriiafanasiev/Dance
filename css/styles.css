@@ -529,6 +529,45 @@ h2 {
 /* Adaptiv */
 
 @media screen and (max-width: 768px) {
+    .footer{
+        display: flex;
+    }
+    .footer__nav{
+        display: none;
+    }
+    .rewiews__title{
+        font-size: 3.5rem;
+    }
+    .rewiews__rewiews{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+    .rewiews__container{
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    .faq__title{
+        display: none;
+    }
+    .faq__container{
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 19px;
+    }
+    .subscription__articles{
+        display: none;
+    }
+    .subscription__container{
+        justify-content: center;
+    }
+    .city__container{
+        justify-content: center;
+    }
+    .city__cities{
+        display: none;
+    }
     .ride__container{
         justify-content: center;
         flex-wrap: wrap;
